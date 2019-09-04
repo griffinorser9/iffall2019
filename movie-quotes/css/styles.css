@@ -1,0 +1,17 @@
+body {
+	background-color: lightgrey;
+	font-family: futura;
+}
+
+h1 {
+	font-size: 50px;
+	font-family: Baskerville;
+}
+
+.dialogue {
+
+}
+
+.name {
+	font-weight: bold;
+}

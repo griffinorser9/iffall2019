@@ -1,0 +1,33 @@
+body {
+	text-align: center;
+}
+
+img {
+	width: 175px;
+	background-color: white;
+
+}
+
+h1 {
+	margin: 10px;
+	padding: 15px;
+	background-color: #efe907;
+	font-size: 50px;
+	line-height: 1em;
+}
+
+h2 {
+	margin: 10px;
+	padding: 15px;
+	background-color: #339933;
+	font-size: 30px;
+	line-height: .5em;
+}
+
+.subhead {
+	font-size: 15px;
+}
+
+.lyrics {
+	font-size: 15px;
+}

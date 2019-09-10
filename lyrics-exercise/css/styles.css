@@ -1,33 +1,42 @@
 body {
 	text-align: center;
+	font-family: "Tahoma";
+	background: linear-gradient(45deg, #dfd707, #53c653, #53c653, #dfd707);
+	background-size: 400% 400%;
 }
 
 img {
+	padding: 10px;
 	width: 175px;
-	background-color: white;
-
+	background-color: #f8f120; 
+	margin-top: 25px;
 }
 
 h1 {
 	margin: 10px;
+	margin-top: 0px;
 	padding: 15px;
-	background-color: #efe907;
-	font-size: 50px;
+	color: #f8f120;
+	font-size: 75px;
 	line-height: 1em;
 }
 
 h2 {
 	margin: 10px;
 	padding: 15px;
-	background-color: #339933;
 	font-size: 30px;
-	line-height: .5em;
+	line-height: 0em;
 }
 
 .subhead {
-	font-size: 15px;
+	font-size: 18px;
+	line-height: 1.4em;
 }
 
 .lyrics {
 	font-size: 15px;
+}
+
+.foot {
+	line-height: 4em;
 }

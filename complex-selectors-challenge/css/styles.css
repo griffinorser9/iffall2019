@@ -1,0 +1,60 @@
+header {
+	margin-bottom: 3rem;
+}
+
+p {
+	line-height: 1.6;
+}
+
+.see-all {
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 300;
+	text-decoration: overline;
+}
+
+h2 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+img {
+	width: 100%;
+}
+
+div {
+	width: 25%;
+	font-size: 0.8rem;
+}
+
+.selected:hover {
+	color: black;
+	font-weight: bold;
+}
+
+.selected:active {
+	color: black;
+}
+
+.selected:visited {
+	color: grey;
+}
+
+img + div {
+	font-weight: bold;
+}
+
+div:nth-of-type(2){
+	font-style: italic;
+}
+
+ul li:nth-of-type(9):after {
+	content: ' *';
+	font-size: 8pt;
+	vertical-align: super;
+}

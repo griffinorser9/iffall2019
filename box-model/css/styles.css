@@ -1,0 +1,113 @@
+body {
+	font-family: "Archivo Narrow", sans-serif;
+	margin: 0;
+}
+
+.header {
+	margin:0;
+	padding: 0;
+	text-align: center;
+	height: 350px;
+	background-image: url("images/seattle.jpg");
+	background-size: 100%;
+	background-position: center top;
+	color:white;
+}
+
+.header h1 {
+	margin-top:150px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 5em;
+	font-weight: bold;
+	margin-bottom:-18px;
+}
+
+h2 {
+	text-align:center;
+	font-size:2.5em;
+}
+
+h4 {
+	display:inline-block;
+	font-size:1.5em;
+	line-height: 0;
+	padding-bottom:5px;
+	margin-top: 12px;
+}
+
+p {
+	line-height:1.25;
+	font-size:1.2em; 
+}
+
+.content {
+	margin-left:350px;
+	margin-right:350px;
+	padding-bottom: 50px;
+}
+
+.sectionA {
+	padding-top:5px;
+	background-color: #80bfff;
+}
+
+#sectionA_img {
+	height:300px;
+	width:400px;
+	display:inline-block;
+	float:right;
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+.sectionB {
+	margin:0;
+	padding-top:8px;
+	background-color: #ffdd99;
+	margin-left:-4px;
+}
+
+.sectionB_box {
+	width:450px;
+	display: inline-block;
+	margin-top:-16px;
+}
+
+.sectionB_box:nth-child(odd) {
+	margin-left:27px;
+}
+
+.sectionB_box p {
+	text-align: left;
+}
+
+#sectionB_img {
+	float: left;
+	height: 150px;
+	width: 200px;
+	padding-right: 15px;
+}
+
+.sectionC {
+	background: #ffe6e6;
+	padding-bottom:30px;
+}
+
+.sectionC p {
+	text-align:center;
+	font-size:1.6em;
+	margin-left:140px;
+	margin-right:140px;
+}
+
+footer {
+	font-weight: 600;
+	font-size: 1.2em;
+	padding-top: 15px;
+	padding-bottom: 16px;
+	margin-right: 800px;
+	text-align: center;
+

@@ -1,0 +1,323 @@
+.button_container {
+	border: 1px solid #ddd;
+	margin: 0 10px 10px 0;
+	padding: 10px;
+	width: 300px;
+	height: 300px;
+	float: left;
+	overflow: hidden;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+a#btn_apple {
+	display: inline-block;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 3em;
+}
+
+a#btn_apple:hover {
+	color: #555;
+}
+
+.nike_img{
+	width: 150px;
+	margin-top: 110px;
+	margin-left: 20px;
+	box-sizing: 60px;
+}
+
+a#btn_nike{
+	background-color: white;
+	padding: 55px 20px 5px 0px; 
+	
+}
+a#btn_nike:hover{
+	border: 3px solid black;
+}
+
+a#btn_fb {
+	display: inline-block;
+	font-family: "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	color: #4267B2;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 3em;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+
+a#btn_fb:hover {
+	color: white;
+	background-color: #4267B2;
+}
+
+a#btn_spotify {
+	display: inline-block;
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: bold;
+	color: #1DB954;
+	text-decoration: none;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 100px;
+	background-color: #fff;
+	border: 3px solid #1DB954;
+	padding: 3px 20px;
+	display: inline-block;
+	border-radius: 50px;
+}
+
+a#btn_spotify:hover{
+	background-color: #1DB954;
+	color: white;
+}
+
+a#btn_spotify {
+	display: inline-block;
+	font-family: "Proxima Nova", sans-serif;
+	font-weight: bold;
+	color: #1DB954;
+	text-decoration: none;
+	text-align: center;
+	font-size: 3em;
+	margin-top: 100px;
+	background-color: #fff;
+	border: 3px solid #1DB954;
+	padding: 3px 20px;
+	border-radius: 50px;
+}
+
+a#btn_spotify:hover{
+	background-color: #1DB954;
+	color: white;
+}
+
+a#btn_instagram {
+	display: inline-block;
+	font-family: freight-sans-pro,sans-serif;
+	font-style: normal;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 100px;
+	font-size: 3em;
+	padding: 3px 20px 8px 20px;
+	border-radius: 15px;
+	transition: box-shadow 0.2s;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e30546+0,bb00ae+50,4a09c2+100,4a09c2+100,4a09c2+101 */
+	background: #e30546; /* Old browsers */
+	background: -moz-linear-gradient(45deg,  #e30546 0%, #bb00ae 50%, #4a09c2 100%, #4a09c2 100%, #4a09c2 101%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg,  #e30546 0%,#bb00ae 50%,#4a09c2 100%,#4a09c2 100%,#4a09c2 101%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg,  #e30546 0%,#bb00ae 50%,#4a09c2 100%,#4a09c2 100%,#4a09c2 101%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e30546', endColorstr='#4a09c2',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_instagram:hover {
+	box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.7);
+}
+
+a#btn_dime {
+	display: inline-block;
+	font-family: rift,sans-serif;
+	font-weight: 600;
+	color: #aa1f23;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 110px;
+	font-size: 3em;
+}
+
+a#btn_dime:hover {
+	color: black;
+}
+
+a#btn_tesla {
+	display: inline-block;
+	font-family: "Gotham", sans-serif;
+	font-weight: 400;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 120px;
+	padding: 10px 60px 8px;
+	display: inline-block;
+	background-color: #e3e3e3;
+	border-radius: 50px;
+}
+
+a#btn_tesla:hover{
+	background-color: #dbdbdb;
+}
+
+a#btn_lyft {
+	display: inline-block;
+	font-family: HelveticaNeue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 90px;
+	font-size: 3em;
+	padding: 10px 30px 10px 25px;
+	border-radius: 20px;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff00bf+0,d3009e+100 */
+	background: #ff00bf; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff00bf 0%, #d3009e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ff00bf 0%,#d3009e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ff00bf 0%,#d3009e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff00bf', endColorstr='#d3009e',GradientType=0 ); /* IE6-9 */
+
+}
+
+a#btn_lyft:hover {
+	color: white;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d300ac+0,990075+100 */
+	background: #d300ac; /* Old browsers */
+	background: -moz-linear-gradient(top,  #d300ac 0%, #990075 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #d300ac 0%,#990075 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #d300ac 0%,#990075 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d300ac', endColorstr='#990075',GradientType=0 ); /* IE6-9 */
+}
+
+a#btn_mbg {
+	display: inline-block;
+	color: #636b4f;
+    font-family: Georgia, BemboStdRegular, Serif;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 120px;
+	font-size: 1.5em;
+}
+
+a#btn_mbg:hover {
+	color: #636b4f;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.ny_img{
+	width: 150px;
+	margin-top: 110px;
+	margin-left: 20px;
+	box-sizing: 60px;
+}
+
+a#btn_ny{
+	padding: 40px 20px 5px 0px; 
+}
+
+a#btn_ny:hover{
+	background-color: rgb(0, 0, 0, .03);
+	border: 1px solid black;
+}
+
+a#btn_molly{
+	display: inline-block;
+	font-family: aktiv grotesk ex, sans-serif;
+	font-weight: 500;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #87896f;
+    font-size: 1.7em;
+	margin-top: 115px;
+}
+
+a#btn_molly:hover {
+	color: #3b441c;
+}
+
+a#btn_color {
+	display: inline-block;
+	margin-top: 100px;
+	padding: 13px 10px 8px;
+	background-color: #262626;
+	border-radius: 15px;
+}
+
+a#btn_color:hover{
+	background-color: #7f3bba;
+}
+
+a#btn_fit{
+	display: inline-block;
+	font-family: Seville Regular, sans-serif;
+	font-weight: 500;
+    border: 1px solid transparent;
+    text-decoration: none;
+    background-color: #01b1b9;
+    color: #ffffff;
+    font-size: 2.5em;
+	margin-top: 80px;
+	padding: 30px 15px 25px;
+	border-radius: 120px;
+}
+
+a#btn_fit:hover {
+	background-color: #002a3a;
+}
+
+a#btn_kittens {
+	display: inline-block;
+	font-family: rift, sans-serif;
+	font-weight: 600;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 105px;
+	font-size: 2.5em;
+	padding: 10px 10px; 
+	border-radius: 15px;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fac720+0,ee2423+100 */
+	background: #fac720; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fac720 0%, #ee2423 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fac720 0%,#ee2423 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fac720 0%,#ee2423 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac720', endColorstr='#ee2423',GradientType=0 ); /* IE6-9 */
+
+}
+
+a#btn_kittens:hover {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#cead1a+0,ce241e+100 */
+	background: #cead1a; /* Old browsers */
+	background: -moz-linear-gradient(top,  #cead1a 0%, #ce241e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #cead1a 0%,#ce241e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #cead1a 0%,#ce241e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cead1a', endColorstr='#ce241e',GradientType=0 ); /* IE6-9 */
+
+}
+
+a#btn_bike {
+	display: inline-block;
+	font-family: aktiv grotesk, sans-serif;
+	font-weight: 400;
+	color: white;
+	text-decoration: none;
+    text-transform: uppercase;
+	text-align: center;
+	margin-top: 110px;
+	font-size: 2em;
+	padding: 10px 10px; 
+	background-color: black;
+}
+
+a#btn_bike:hover {
+	background-color: rgba(23, 163, 179);
+}
+
+
+
+
+	

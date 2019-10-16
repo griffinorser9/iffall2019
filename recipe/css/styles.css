@@ -1,0 +1,129 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	position: relative;
+}
+
+h1{
+	font-family: Discourse Middle, serif;
+	font-weight: 600;
+	font-size: 2.5em;
+	line-height: 1em;
+	color: #bd4045;
+	position: absolute;
+	top: 0;
+	margin-top: 2px;
+}
+
+.cake{
+	width: 100%;
+}
+
+.subhead{
+	display: block;
+	position: relative;
+	background-color: #bd4045;
+	padding: 1px 0px;
+	margin-top: -5px;
+}
+
+h3{
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-weight: 300;
+	color: #fcfcf4;
+	text-align: center;
+	font-size: .9em;
+	line-height: .6em;
+}
+
+strong{
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-weight: 500;
+	color: #fcfcf4;
+	text-align: center;
+	font-size: .9em;
+}
+
+.ingredients{
+	background-color: #fcfcf4;
+	padding: 0px 10px 20px;
+}
+
+.head1{
+	font-family: Discourse Middle, serif;
+	font-weight: 600;
+	font-size: 2em;
+	color: #bd4045;
+	text-align: center;
+	margin-top: 0px;
+	letter-spacing: .03em;
+	margin-bottom: -20px;
+}
+
+.h4-1{
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-size: .95em;
+	font-weight: 500;
+	color: #bd4045;
+	margin-bottom: -7px;
+}
+
+ul{
+	margin-left: -12px;
+	list-style-type: disc;
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-size: .75em;
+	font-weight: 300;
+	line-height: 1.5em;
+	color: #bd4045;
+	margin-bottom: -7px;
+}
+
+.instructions{
+	background-color: #bd4045;
+	padding: 0px 10px 20px;
+}
+
+.head2{
+	font-family: Discourse Middle, serif;
+	font-weight: 600;
+	font-size: 2em;
+	color: #fcfcf4;
+	text-align: center;
+	margin-top: 0px;
+	letter-spacing: .03em;
+	margin-bottom: -20px;
+}
+
+.h4-2{
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-size: .95em;
+	font-weight: 500;
+	color: #fcfcf4;
+	margin-bottom: -7px;
+}
+
+ol{
+	margin-left: -12px;
+	list-style-type: 1;
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-size: .75em;
+	font-weight: 300;
+	line-height: 1.5em;
+	color: #fcfcf4;
+	margin-bottom: -7px;
+}
+
+footer{
+	font-family: TitlingGothicFB Normal , sans-serif;
+	font-weight: 300;
+	background-color: #fcfcf4; 
+	color: #bd4045;
+	text-align: center;
+	font-size: .4em;
+	line-height: 2em;
+	padding: 7px;
+}

@@ -7,6 +7,7 @@ body{
 	position: relative;
 	background-image: url(../images/cake.jpg);
 	background-size: cover;
+	letter-spacing: .05em;
 	height: 275px;
 	top: 0px;
 	padding: 0px;
@@ -16,13 +17,12 @@ body{
 h1{
 	font-family: "Discourse Middle", serif;
 	font-weight: 600;
-	font-size: 2.5em;
+	font-size: 2.7em;
 	line-height: 1em;
 	color: #bd4045;
-	position: absolute;
-	top: 0;
-	margin-top: 2px;
-	margin-left: 3px;
+	text-align: center;
+	padding-top: 7px;
+	margin: 0px;
 }
 
 .cake{
@@ -60,9 +60,9 @@ strong{
 }
 
 .head1{
-	font-family: Alegreya, serif;
-	font-weight: 900;
-	font-size: 2.3em;
+	font-family: "Discourse Middle", serif;
+	font-weight: 600;
+	font-size: 2em;
 	color: #bd4045;
 	text-align: center;
 	margin-top: 5px;
@@ -95,9 +95,9 @@ ul{
 }
 
 .head2{
-	font-family: Alegreya, serif;
-	font-weight: 900;
-	font-size: 2.3em;
+	font-family: "Discourse Middle", serif;
+	font-weight: 600;
+	font-size: 2em;
 	color: #fcfcf4;
 	text-align: center;
 	margin-top: 5px;

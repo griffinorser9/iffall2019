@@ -1,0 +1,110 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #00263d;
+}
+
+.nav-buttons-home{
+	font-family: "Gimlet Display", serif;
+	font-weight: bold;
+	font-size: 2.75em;
+	color: white;
+	text-decoration: none;
+	padding: 30pt;
+}
+
+.nav-buttons-home:hover {
+	color: #a3d9e7;
+}
+
+.nav-buttons{
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 200;
+	font-size: 1.25em;
+	padding: 20pt;
+	color: white;
+	text-decoration: none;
+}
+
+.nav-buttons:hover {
+	color: #a3d9e7;
+}
+
+header{
+	display: block;
+	position: fixed;
+	margin-top: -100px;
+	background-color: #005c83;
+	height: 60px;
+	padding: 10px;
+	padding-bottom: 5px;
+	width: 100%;
+}
+
+h1{
+	font-family: "Gimlet Display", serif;
+	font-size: 6em;
+	color: white;
+	margin-top: 100px;
+	text-align: center;
+	margin-bottom: -20px;
+}
+
+h2{
+	font-family: "Gimlet Display", serif;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 2em;
+	color: white;
+	text-decoration: overline;
+	margin-top: 0px;
+	margin-bottom: -10px;
+	padding-top: 10px;
+}
+
+.home-body {
+	vertical-align: top;
+	align-content: center;
+	display: inline-block;
+	width: 90%;
+	padding: 30px;
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-top: 25px;
+	column-count: 3;
+	column-gap: 30px; 
+}
+
+.body1{
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	font-style: normal;
+	color: white;
+}
+
+.content-image{
+	width: 100%;
+	max-width: 500px;
+}
+
+.image-description{
+	width: 100%;
+	max-width: 500px;
+}
+
+.image-interaction{
+	width: 100%;
+	max-width: 500px;
+	padding-bottom: 40px;
+}
+
+.source-body{
+	font-family: titling-gothic-fb, sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+	font-style: normal;
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+}
